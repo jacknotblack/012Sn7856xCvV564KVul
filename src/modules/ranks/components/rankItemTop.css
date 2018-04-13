@@ -1,0 +1,51 @@
+.rank-item-top {
+  position: relative;
+  padding: 12px 4px;
+  height: 88px;
+  font-size: 0;
+  border-bottom: #e8e8e8 solid 1px; }
+  .rank-item-top .rank-number {
+    display: inline-block;
+    width: 50px;
+    margin-left: -4px;
+    vertical-align: middle;
+    line-height: 88px;
+    font-size: 20px; }
+  .rank-item-top .avatar-container {
+    width: 182px;
+    margin: -88px auto;
+    font-size: 14px;
+    text-align: center; }
+    .rank-item-top .avatar-container .avatar-wrapper {
+      position: relative;
+      margin-bottom: 6px; }
+      .rank-item-top .avatar-container .avatar-wrapper img:first-child {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        left: 74px;
+        top: 10px;
+        border-radius: 18px; }
+    .rank-item-top .avatar-container .name {
+      font-weight: bold; }
+    .rank-item-top .avatar-container .star-wrapper {
+      margin-top: 4px;
+      font-size: 11px;
+      color: #646464; }
+  .rank-item-top.no1 {
+    height: 132px; }
+    .rank-item-top.no1 .rank-number {
+      color: #edb851;
+      line-height: 132px; }
+    .rank-item-top.no1 .avatar-container {
+      margin-top: -132px; }
+    .rank-item-top.no1 .avatar-wrapper img:first-child {
+      width: 44px;
+      height: 44px;
+      top: 44px;
+      left: 69px;
+      border-radius: 22px; }
+  .rank-item-top.no2 .rank-number {
+    color: #9567a9; }
+  .rank-item-top.no3 .rank-number {
+    color: #5bb055; }

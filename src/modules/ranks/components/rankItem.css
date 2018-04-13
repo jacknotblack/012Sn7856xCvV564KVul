@@ -1,0 +1,31 @@
+.rank-item {
+  position: relative;
+  padding: 12px 4px;
+  height: 38px;
+  font-size: 0;
+  border-bottom: #e8e8e8 solid 1px; }
+  .rank-item .rank-number {
+    display: inline-block;
+    width: 50px;
+    margin-left: -4px;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 38px; }
+  .rank-item .avatar-container {
+    width: 182px;
+    margin: -38px auto;
+    font-size: 14px; }
+    .rank-item .avatar-container .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 18px; }
+    .rank-item .avatar-container .name-wrapper {
+      display: inline-block;
+      vertical-align: super;
+      margin-left: 16px; }
+    .rank-item .avatar-container .name {
+      font-weight: bold; }
+    .rank-item .avatar-container .star-wrapper {
+      margin-top: 4px;
+      font-size: 11px;
+      color: #646464; }

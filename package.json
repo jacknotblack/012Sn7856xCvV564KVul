@@ -1,0 +1,76 @@
+{
+  "name": "webview-ranking",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "history": "^4.7.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-load-script": "0.0.6",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-scripts": "1.0.17",
+    "react-useragent": "^0.4.4",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "start-js": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "test:ci": "npm run build-css && react-scripts test --testResultsProcessor `pwd`/node_modules/jest-junit",
+    "lint": "node_modules/eslint/bin/eslint.js src",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.18",
+    "@storybook/react": "^3.2.17",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.5.1",
+    "fetch-mock": "^5.13.1",
+    "i": "^0.3.6",
+    "jest-junit": "^3.4.0",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.2",
+    "prettier": "1.9.2",
+    "react-test-renderer": "^16.2.0",
+    "redux-mock-store": "^1.4.0",
+    "redux-test-utils": "^0.2.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/*.test.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/stories/*",
+      "!src/**/index.lazy.*",
+      "!src/setupTest.js",
+      "!src/mock.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "clover",
+      "cobertura",
+      "lcov"
+    ]
+  }
+}

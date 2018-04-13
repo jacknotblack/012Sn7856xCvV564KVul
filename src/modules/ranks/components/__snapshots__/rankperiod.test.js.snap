@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A suite should match snapshot 1`] = `
+<div>
+  Selected:
+  daily
+  <div
+    className="periodItem"
+    key="daily"
+    onClick={[Function]}
+    role="presentation"
+  >
+    daily
+  </div>
+  <div
+    className="periodItem"
+    key="weekly"
+    onClick={[Function]}
+    role="presentation"
+  >
+    weekly
+  </div>
+  <div
+    className="periodItem"
+    key="monthly"
+    onClick={[Function]}
+    role="presentation"
+  >
+    monthly
+  </div>
+</div>
+`;

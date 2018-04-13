@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop render should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    path="/ranks"
+    render={[Function]}
+  />
+  <Route
+    path="/billing"
+    render={[Function]}
+  />
+</div>
+`;

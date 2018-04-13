@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="48px" viewBox="0 0 147 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bg_third_ranking</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="18.6340332%" y1="-8.80432129%" x2="74.9237061%" y2="112.310791%" id="linearGradient-1">
+            <stop stop-color="#025801" offset="0%"></stop>
+            <stop stop-color="#8CEA88" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.7317708%" x2="24.5951991%" y2="121.137153%" id="linearGradient-2">
+            <stop stop-color="#87ED7E" offset="0%"></stop>
+            <stop stop-color="#024700" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.7317708%" x2="24.5951991%" y2="121.137153%" id="linearGradient-3">
+            <stop stop-color="#87ED7E" offset="0%"></stop>
+            <stop stop-color="#287025" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="six" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg_third_ranking" transform="translate(-7.000000, -9.000000)">
+            <circle id="Oval-8-Copy" stroke="url(#linearGradient-1)" stroke-width="2" cx="81" cy="37" r="19"></circle>
+            <g id="Group-3" transform="translate(128.282911, 31.357321) rotate(12.000000) translate(-128.282911, -31.357321) translate(99.782911, 5.357321)" opacity="0.780000031">
+                <path d="M5.61971831,34.4 C5.61971831,46.3293506 15.7599857,48 26.4929577,48 C42.4547649,48 54.5393436,27.7348761 54.5393436,27.7348761" id="Oval-9" fill="url(#linearGradient-2)" transform="translate(30.507042, 37.200000) rotate(8.000000) translate(-30.507042, -37.200000) "></path>
+                <path d="M4.81690141,27.2 C4.81690141,39.1293506 14.9571688,40.8 25.6901408,40.8 C41.651948,40.8 53.7365267,20.5348761 53.7365267,20.5348761" id="Oval-9-Copy" fill="url(#linearGradient-3)" transform="translate(29.704225, 30.000000) rotate(-12.000000) translate(-29.704225, -30.000000) "></path>
+                <path d="M2.67412603,19.4806932 C2.67412603,31.4100438 12.639263,32.9011506 23.372235,32.9011506 C39.3340421,32.9011506 51.4186208,12.6360267 51.4186208,12.6360267 C51.8908368,11.898795 51.5724891,11.4167792 50.6934597,11.5617414 L2.67412603,19.4806932 Z" id="Oval-9-Copy-2" fill="url(#linearGradient-3)" transform="translate(27.151633, 22.218941) rotate(-30.000000) translate(-27.151633, -22.218941) "></path>
+            </g>
+            <g id="Group-3" transform="translate(33.282911, 31.357321) scale(-1, 1) rotate(12.000000) translate(-33.282911, -31.357321) translate(4.782911, 5.357321)" fill="url(#linearGradient-3)" opacity="0.780000031">
+                <path d="M5.61971831,34.4 C5.61971831,46.3293506 15.7599857,48 26.4929577,48 C42.4547649,48 54.5393436,27.7348761 54.5393436,27.7348761" id="Oval-9" transform="translate(30.507042, 37.200000) rotate(8.000000) translate(-30.507042, -37.200000) "></path>
+                <path d="M4.81690141,27.2 C4.81690141,39.1293506 14.9571688,40.8 25.6901408,40.8 C41.651948,40.8 53.7365267,20.5348761 53.7365267,20.5348761" id="Oval-9-Copy" transform="translate(29.704225, 30.000000) rotate(-12.000000) translate(-29.704225, -30.000000) "></path>
+                <path d="M2.67412603,19.4806932 C2.67412603,31.4100438 12.639263,32.9011506 23.372235,32.9011506 C39.3340421,32.9011506 51.4186208,12.6360267 51.4186208,12.6360267 C51.8908368,11.898795 51.5724891,11.4167792 50.6934597,11.5617414 L2.67412603,19.4806932 Z" id="Oval-9-Copy-2" transform="translate(27.151633, 22.218941) rotate(-30.000000) translate(-27.151633, -22.218941) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

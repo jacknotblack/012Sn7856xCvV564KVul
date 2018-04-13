@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A suite should match snapshot 1`] = `
+<div
+  className="rank-item"
+>
+  <div
+    className="rank-number no4"
+  >
+    No. 
+    4
+  </div>
+  <div
+    className="avatar-container"
+  >
+    <img
+      alt="avatar"
+      className="avatar"
+      src="avatar.jpg"
+    />
+    <div
+      className="name-wrapper"
+    >
+      <span
+        className="name"
+      >
+        Tony Stark
+      </span>
+      <div
+        className="star-wrapper"
+      >
+        5167456314675
+      </div>
+    </div>
+  </div>
+</div>
+`;
